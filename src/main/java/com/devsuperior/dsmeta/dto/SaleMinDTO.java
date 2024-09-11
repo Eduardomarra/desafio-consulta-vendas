@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 import com.devsuperior.dsmeta.entities.Sale;
 
+
 public class SaleMinDTO {
 
 	private Long id;
@@ -22,6 +23,7 @@ public class SaleMinDTO {
 		date = entity.getDate();
 	}
 
+
 	public Long getId() {
 		return id;
 	}
@@ -33,4 +35,6 @@ public class SaleMinDTO {
 	public LocalDate getDate() {
 		return date;
 	}
+
+
 }
